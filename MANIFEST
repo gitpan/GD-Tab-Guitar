@@ -14,11 +14,11 @@ META.yml
 README
 t/00.load.t
 t/01_methods.t
-t/97_podspell.t
-t/98_perlcritic.t
-t/99_pod.t
 t/files/BAR_206791.png
 t/files/C.png
 t/files/D7.png
 t/files/FOO_x_10_12_12_11_10.png
 t/files/G_334553.png
+xt/97_podspell.t
+xt/98_perlcritic.t
+xt/99_pod.t

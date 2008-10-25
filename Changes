@@ -1,4 +1,10 @@
 Revision history for GD-Tab-Guitar
 
-Fri Oct 24 14:03:09 JST 2008
-   - original version
+0.02 Sat Oct 25 13:19:00 2008
+     - moved fuckin' test scripts using
+       Test::Spelling, Test::Perl::Critic and Test::Pod to xt directory
+       to avoid test failures.
+       was adoviced by tokuhirom on Wassr.
+
+0.01 Fri Oct 24 14:03:09 2008
+     - original version

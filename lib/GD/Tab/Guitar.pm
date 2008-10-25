@@ -8,7 +8,7 @@ use List::Util qw(max);
 
 __PACKAGE__->mk_accessors(qw(bgcolor color interlaced));
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 my @lines = (
     [5,15,46,15],
     [5,21,46,21],
