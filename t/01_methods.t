@@ -21,6 +21,7 @@ is(493, scalar(@{$uk->all_chords}));
 
 sub fileread {
     my $fh = IO::File->new(shift, 'r');
+    $fh->binmode();
     return do {local $/ = undef; <$fh>};
 }
 
